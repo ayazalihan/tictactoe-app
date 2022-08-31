@@ -8,7 +8,7 @@ function Board() {
   const winner = calcWinner(square);
   let status;
   if (winner) {
-    status = "Winner:" + winner;
+    status = "Winner: " + winner;
   } else {
     status = "Active Player: " + (cross ? "X" : "O");
   }
